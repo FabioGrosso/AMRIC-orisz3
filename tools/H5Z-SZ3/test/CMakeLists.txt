@@ -6,6 +6,7 @@ endfunction(build_hdf5_test)
 
 build_hdf5_test(ss.cpp)
 build_hdf5_test(stack.cpp)
-build_hdf5_test(des.cpp)
+build_hdf5_test(ss-w.cpp)
+build_hdf5_test(stack-w.cpp)
 #build_hdf5_test(convertBinToHDF5.cpp)
 
